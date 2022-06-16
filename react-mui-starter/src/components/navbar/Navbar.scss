@@ -1,0 +1,49 @@
+textarea {
+  width: 95.4%;
+  height:20%;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+border:none;
+  border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+  border-image: none;
+//   border-radius: 6px 6px 6px 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  // box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+  border-bottom:1px solid #D3D3D3;
+  border-right:1px solid white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+}
+textarea:focus {
+  background: none repeat scroll 0 0 #FFFFFF;
+  outline-width: 0;
+}
+.PhoneInputCountry{
+ border:1px solid #D3D3D3; 
+ padding: 2px 5px 2px 5px;
+ border-radius:5px;
+}
+.PhoneInputInput{
+  border:1px solid #D3D3D3;
+  padding: 15px 5px 15px 5px;
+  border-radius:5px;
+}
+.PhoneInputInput:focus{
+outline:1px solid #1E90FF;
+border:1px solid #1E90FF;
+
+}
+
+.lists:hover{
+background-color:#E8E8E8;
+}
+
+.MuiDialog-paper{
+  width:250px;
+}
